@@ -1,0 +1,51 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  /* background: #ff1742; */
+  background: #ff1742 linear-gradient(0deg, #33040c 0%, #ff1742 100%);
+}
+
+header h1 {
+  margin: 0;
+  padding: 110px 0;
+  font: 2.5em normal Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+h2 {
+  color: #33040c;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+footer {
+  background-color: #33040c;
+  margin-top: 50px;
+  padding: 50px 0;
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
+}
+
+hr.beat {
+  border: none;
+  margin: 0;
+  background: url(../img/beat.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 900/120;
+}
+
+.align-right {
+  text-align: right;
+}
